@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    background-color: black;
+}
+.heading > h1 {
+    color: white;
+}
+.button > button {
+    border: none;
+    border-radius: 10px;
+}
+.button > button:hover{
+    background-color: red;
+    color: white;
+}
